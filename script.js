@@ -5,10 +5,10 @@ function toggleMode() {
   const image = document.querySelector("#profile img")
   const txt = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    image.setAttribute("src", "./assets/Avatar-light.png")
+    image.setAttribute("src", "./assets/img-me-light.png")
     txt.setAttribute("alt", "foto eu editada")
   } else {
-    image.setAttribute("src", "./assets/Avatar.png")
+    image.setAttribute("src", "./assets/img-me.png")
     txt.setAttribute("alt", "foto eu original")
   }
 }
